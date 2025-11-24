@@ -1,1 +1,12 @@
-@import "tailwindcss";
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/Wagon-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@import 'tailwindcss';
+
+@theme {
+  --font-custom: 'CustomFont', sans-serif;
+}
